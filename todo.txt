@@ -101,8 +101,6 @@
 /bin/bzip2
 /bin/bunzip2
 /bin/umount
-/bin/true
-/bin/false
 /bin/hostname
 /bin/which
 

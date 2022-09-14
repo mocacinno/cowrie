@@ -4,10 +4,10 @@ from cowrie.shell.command import HoneyPotCommand
 
 commands = {}
 
-class Command_true(HoneyPotCommand):
+class Command_false(HoneyPotCommand):
     def start(self):
         self.exit()
 
 
-commands["/bin/true"] = Command_true
-commands["true"] = Command_true
+commands["/bin/false"] = Command_false
+commands["false"] = Command_false

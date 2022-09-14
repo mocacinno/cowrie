@@ -51,4 +51,5 @@ __all__ = [
     "which",
     "yum",
     "true",
+	"false",
 ]
