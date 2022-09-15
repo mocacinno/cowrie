@@ -2,7 +2,6 @@
 2) edit /cowrie/src/cowrie/commands/__init__.py
 3)./bin/fsctl  ./share/cowrie/fs.pickle
 
-/usr/local/bin/lightning-cli
 /usr/sbin/sendmail
 /usr/bin/strace
 /usr/bin/openssl

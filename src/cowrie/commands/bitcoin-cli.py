@@ -42,7 +42,7 @@ sendtoaddress "address" amount
      def call(self):
           try:
                opts, args = getopt.gnu_getopt(self.args, "h", ["help",  "getbalance", "getnewaddress", "getunconfirmedbalance", "sendtoaddress" ] )
-               self.write("debug: %s %s \n\n" % (opts, args))
+               #self.write("debug: %s %s \n\n" % (opts, args))
           except getopt.GetoptError:
                self.help()
                return

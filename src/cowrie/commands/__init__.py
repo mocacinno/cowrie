@@ -52,5 +52,6 @@ __all__ = [
     "yum",
     "true",
 	"false",
-	"bitcoin-cli"
+	"bitcoin-cli",
+	"lightning-cli",
 ]
