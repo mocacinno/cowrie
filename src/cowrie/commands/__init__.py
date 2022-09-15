@@ -52,4 +52,5 @@ __all__ = [
     "yum",
     "true",
 	"false",
+	"bitcoin-cli"
 ]
